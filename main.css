@@ -22,9 +22,9 @@
     padding: 15px;
    
   }
-  @font-face { font-family: Raleway; src: url('./text/Raleway/Raleway-Light.TTF'); }
+  @font-face { font-family: Raleway; src: url('../text/Raleway/Raleway-Light.TTF'); }
   
-  @font-face { font-family: Open-sans; src: url('./text/open-sans/OpenSans-Regular.TTF'); }
+  @font-face { font-family: Open-sans; src: url('../text/open-sans/OpenSans-Regular.TTF'); }
 .parallax {
    
     background-image: url("images/laptop.jpg"); opacity: 0.75;
