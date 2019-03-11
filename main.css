@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.floaterl{
+  float:left;
+}
 .intro
 {
     background-color:#f1ffbf;
     margin-left: 64px;
     margin-right: 64px;
-    font-size: 21px;
+    font-size:0.95em;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 64px;
@@ -15,10 +19,10 @@
 }
 .intro2
 {
-    background-color:#ffdcbf;
+    background-color:white;
     margin-left: 64px;  
     margin-right: 64px;
-    font-size: 21px;
+    font-size:0.95em;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 64px;
@@ -32,7 +36,7 @@
     background-color:#ffffe6;
     margin-left: 64px;  
     margin-right: 64px;
-    font-size: 21px;
+    font-size:0.95em;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 64px;
@@ -58,7 +62,7 @@
   @font-face { font-family: Open-sans; src: url('../text/open-sans/OpenSans-Regular.TTF'); } */
 .parallax {
    
-    background-image: url("images/laptop.jpg"); 
+    background-image: url("images/tech5.jpg"); 
     min-height: 650px; 
     background-attachment: fixed;
     background-position: center;
@@ -71,7 +75,7 @@
   }
   .parallax2 {
    
-    background-image: url("images/mountain.jpg"); 
+    background-image: url("images/tech3.jpg"); 
     min-height: 650px; 
     background-attachment: fixed;
     background-position: center;
@@ -87,7 +91,6 @@
    
     background-image: url("images/expblack.jpg"); 
     min-height: 650px; 
-    opacity:0.85;
     background-attachment: fixed;
     background-position: center;
     width:100%;
@@ -101,7 +104,7 @@
   .parallax4 {
    
     background-image: url("images/academic.jpeg"); 
-    min-height: 650px; s
+    min-height: 650px; 
     background-attachment: fixed;
     background-position: center;
     width:100%;
