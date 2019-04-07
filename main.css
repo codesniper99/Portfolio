@@ -9,7 +9,7 @@
     background-color:#f1ffbf;
     margin-left: 64px;
     margin-right: 64px;
-    font-size:0.95em;
+    font-size:1em;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 64px;
@@ -22,7 +22,7 @@
     background-color:white;
     margin-left: 64px;  
     margin-right: 64px;
-    font-size:0.95em;
+    font-size:1em;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 64px;
@@ -36,7 +36,7 @@
     background-color:#ffffe6;
     margin-left: 64px;  
     margin-right: 64px;
-    font-size:0.95em;
+    font-size:1em;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 64px;
@@ -126,12 +126,11 @@
     position: absolute;
     left:30%;
     top:35%;
-    width: 40%;
-    min-width: 300px;
+    right:30%;
+    
     text-align: center;
     background-color: black;
     color: white;
     opacity: 0.90;
-    font-size: 48px;
     
   }
