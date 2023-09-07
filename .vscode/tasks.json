@@ -1,21 +1,23 @@
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
+    "command": "explorer",    
+    "windows": {
+        "command": "explorer.exe"
+    },
+    "args": [
+        "index.html"
+    ],
     "tasks": [
         {
-            "label": "echo",
-            "type": "shell",
-            "command": "g++",
+            "label": "explorer.exe",
             "args": [
-                "test.cpp"
+                "index.html"
             ],
+            "problemMatcher": [],
             "group": {
-                "kind": "build",
-                "isDefault": true
-
+                "_id": "build",
+                "isDefault": false
             }
-
         }
     ]
 }
