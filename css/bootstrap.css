@@ -512,6 +512,7 @@ mark {
 
 .img-fluid {
     max-width: 100%;
+    object-fit: scale-down;
     height: auto
 }
 
