@@ -260,6 +260,8 @@ h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  margin-left: auto; /* Automatically takes the available space to the left */
+  margin-right: 20%;   /* Ensure no extra space on the right */
 }
 
 #hero h1 {
@@ -963,6 +965,31 @@ section {
   text-align: center;
   padding: 15px;
   font-weight: 600;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #fcfeff; /* You can change this color to any color you prefer */
+  background-color: #800000; /* Light blue background to make it pop */
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+
+.highlight2 {
+  font-weight: bold;
+  color: #fcfeff; /* You can change this color to any color you prefer */
+  background-color: #ff9a00; /* Light blue background to make it pop */
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.highlight3 {
+  font-weight: bold;
+  color: #fcfeff; /* You can change this color to any color you prefer */
+  background-color: #ff0300; /* Light blue background to make it pop */
+  padding: 2px 4px;
+  border-radius: 3px;
 }
 
 .contact .php-email-form .loading {
