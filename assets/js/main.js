@@ -164,12 +164,10 @@
         progress.forEach((el) => {
           let value = el.getAttribute("aria-valuenow");
           let colorIntensity = Math.floor((value / 100) * 255); // Convert value to a number between 0 and 255
-          let startColor = `rgb(${colorIntensity}, ${
-            255 - colorIntensity
-          }, 250)`; // Gradient start color
-          let endColor = `rgb(${colorIntensity + 30}, ${
-            255 - (colorIntensity + 30)
-          }, 0)`; // Gradient end color
+          let startColor = `rgb(${colorIntensity}, ${255 - colorIntensity
+            }, 250)`; // Gradient start color
+          let endColor = `rgb(${colorIntensity + 30}, ${255 - (colorIntensity + 30)
+            }, 0)`; // Gradient end color
 
           el.style.setProperty("--start-color", startColor);
           el.style.setProperty("--end-color", endColor);
