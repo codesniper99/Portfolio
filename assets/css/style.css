@@ -999,6 +999,14 @@ section {
   padding: 2px 4px;
   border-radius: 3px;
 }
+
+.highlight5 {
+  font-weight: bold;
+  color: #fcfeff; /* You can change this color to any color you prefer */
+  background-color: #717171; /* Light blue background to make it pop */
+  padding: 2px 4px;
+  border-radius: 3px;
+}
 .contact .php-email-form .loading {
   display: none;
   background: #fff;
